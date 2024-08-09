@@ -3,6 +3,7 @@
 # Replace the variables with the proper ones for your Rackspace Cloud account.
 # Note: The Agent_ID matches your server's UUID. Adjust the THRESHOLD as needed.
 # Configure this script to run with a cron.
+# Prerequisites: rackspace-monitoring-agent, jq, bc
 
 # Variables
 USERNAME="$USERNAME"
