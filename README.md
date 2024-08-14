@@ -17,3 +17,6 @@ A collection of useful Bash Scripts that can speed up and assist in performing t
      2) Add the following line and save the file:
         */5 * * * * /usr/local/bin/monitor_memory_api.sh >> /var/log/monitor_memory_api.log 2>&1
 
+4. extract_and_combine_logs.sh
+   - Description: This Bash script was intended for Rackspace Cloud Files Logs. After downloading the folder structure of the Access Logs, you can put them in a directory and then run this script to extract all the subfolders, sort them by time/date, and then put them into a single file for viewing.
+   - Usage: ./extract_and_combine_logs.sh $PARENT_FOLDER
