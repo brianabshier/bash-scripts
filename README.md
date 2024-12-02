@@ -20,3 +20,7 @@ A collection of useful Bash Scripts that can speed up and assist in performing t
 4. extract_and_combine_logs.sh
    - Description: This Bash script was intended for Rackspace Cloud Files Logs. After downloading the folder structure of the Access Logs, you can put them in a directory and then run this script to extract all the subfolders, sort them by time/date, and then put them into a single file for viewing.
    - Usage: ./extract_and_combine_logs.sh $PARENT_FOLDER
+  
+5. ssl_diagnostics.sh
+   - Description: This Bash script automates many of the checks for diagnosing SSL/TLS issues when connecting to a server. It tests the OpenSSL version, server certificates, supported protocols, and cipher suites, and outputs useful diagnostic information of the $HOSTNAME you pass in the command.
+   - Usage: ./ssl_diagnostics.sh $HOSTNAME
